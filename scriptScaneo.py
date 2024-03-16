@@ -7,7 +7,7 @@ def print_help():
     print("-T<0-5>: Establece la velocidad del escaneo (0 = lento, 5 = rápido)")
     print("-F: Escaneo rápido (solo los puertos más comunes)")
     print("--help: Muestra esta ayuda")
-    # Agrega más opciones aquí según tus necesidades
+    #Agrega más opciones aquí según tus necesidades
 
 def scan_website(target, options):
     nm = nmap.PortScanner()
